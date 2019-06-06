@@ -1,0 +1,138 @@
+
+
+    header {
+      text-align: center;
+      background: url("../images/GPyramids_SXbpSilo_bg.jpg");
+      background-size: cover;
+      color: white;
+      margin: 0 auto;
+    }
+
+   .content {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 18px;
+      letter-spacing: 1px;
+      line-height:1.3;
+      text-align: justify;
+
+    }
+
+
+    a {
+      color: white;
+      text-decoration: none;
+      
+    }
+
+    h1 {
+      font-size: 70px;
+      font-weight: bold;
+      padding: 12px;
+    }
+
+    h2 {
+      text-align: center;
+      font-weight: bold;
+      font-size: 36px;
+    }
+
+
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 5px solid white;
+      border-radius: 20px;
+    }
+
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+
+    li {
+      font-size: 24px;
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+
+    body {
+      background: url("../images/TempleAsetGoldArnk_tlling_white_bg.jpg");
+      
+
+    }
+
+    .content a{
+      color: black;
+    }
+
+
+
+    /* Web responsive design and Javascript */
+
+    /* Using "max-width" instead of "width" means our article elements can be smaller than 500px, but not any larger. */
+
+
+    /* The <article> tag let us group together multiple HTML elements that form a single piece of content. */
+    
+    article {
+          max-width:500px;
+          padding: 20px;
+          margin: 0 auto;
+          
+    }
+  
+    /*
+    @media only screen and (max-width: 500px) {
+      body {
+        background: red;
+      
+    }
+    }
+    */
+
+
+    /* The CSS code below adjusts the content below for mobile devices at the less than 500px width! */
+   
+    @media only screen and (max-width: 500px) {
+      h1 {
+        
+        font-size:36px;
+     }
+
+     h2 {
+     	font-size:24px;
+
+     }
+
+   li {
+       
+       display: block;
+       padding: 5px;
+    }
+    
+    img {
+        width: 180px;
+        border: 3px solid white;
+      
+
+  }
+}
+    
+    
+    /* 
+   @media only screen and (max-width: 500px) {
+      img {
+        width: 180px;
+      
+    }
+    }
+    */
+    
+
+    #link a{
+      color: black;
+      text-decoration: none;
+      
+    }
+
+    
+    
